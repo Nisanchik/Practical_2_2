@@ -20,6 +20,17 @@ public class Practical9 {
         }catch(InterruptedException ex){
             ex.printStackTrace();
         }finally{
+            //Упражнение 1
+            /*try{
+                FileWriter fw = new FileWriter("C:\\qwerty/resp.html");
+                fw.write(httpRunnable.getResponseBody());
+                fw.close();
+                System.out.println("Succesfully");
+            }catch (IOException ex) {
+                System.out.println("Error" + ex.getMessage());
+            }*/
+
+            // Упражнение 2
             JSONObject jsonObject = new JSONObject(httpRunnable.getResponseBody());
             int result = jsonObject.getInt("result_code");
             System.out.println("Result: " + result);
