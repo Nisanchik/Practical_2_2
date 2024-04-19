@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Practical9 {
     public static void main(String[] args) {
-        System.out.println("Practical 2.2, Stetuha Margarita, RIBO-04-22");
+        System.out.println("Practical 2.2, Nisanov Daniil, RIBO-04-22");
         System.out.println("Start program!");
         String server = "https://android-for-students.ru";
         String serverPath = "/materials/practical/hello.php";
